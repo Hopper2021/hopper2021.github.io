@@ -13,6 +13,8 @@
 .about-me {
   border: 1px solid black;
   padding: 5px solid red;
+  width: 50%;
+  margin: auto;
 }
 
 .picture {
@@ -22,13 +24,20 @@
 
 p {
   float: right;
+  text-align: center;
 }
 
-.experience-header {
-
+.links {
+  display: flex;
+  justify-content: center;
 }
 
-.experience-body {
-
+.linkedin-link {
+  padding: 10px;
 }
+
+.github-link {
+  padding: 10px;
+}
+
 
