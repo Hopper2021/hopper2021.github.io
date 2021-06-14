@@ -31,21 +31,26 @@ body{
   display: flex;
   flex-wrap: wrap;
   border-top: 20px;
+  margin-top: 15px;
 }
 
 .picture {
   height: 250px;
   border-radius: 50%;
-  margin-right: 30px;
+  margin-right: auto;
+  margin-left: auto;
   margin-top: 60px;
   
 }
 
 p {
-  margin-top: 40px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
   width: 200px;
   display: flex;
   flex-wrap: wrap;
+  border: auto;
 }
 
 .links {
